@@ -1,38 +1,629 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.asd{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.Rectangle{
+width: 100%;
+height: 72px;
+display: flex;
+background: #FFFFFF;
 }
+.search{
+  position: absolute;
+width: 25%;
+height: 42px;
+left: 37.5%;
+top: 16px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+background: #F2F2F2;
+border-radius: 21px;
+}
+.search-box{
+  position: absolute;
+width: 16.80555%;
+height: 19px;
+left: 40.9722%;
+top: 28px;
+border: none;
+background: #F2F2F2;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #5C5C5C;
+}
+.search_icon{
+  position: absolute;
+left: 5%;
+right: 0%;
+top: 25%;
+bottom: 0%;
+Width :16px;
+Height :16px;
+
+}
+.Create-account{
+height: 21px;
+display: flex;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+
+color: #2E2E2E;
+}
+.left_box{
+  top: 27px;
+  position: absolute;
+left: 80.625%;
+  display: flex;
+}
+@media only screen and (max-width: 524px) {
+  .left_box{
+    top: 11px;
+    position: absolute;
+  left: 80.625%;
+    display: flex;
   }
-  to {
-    transform: rotate(360deg);
+  .write_a_post{
+    display: none;
+  }
+  .lower_left{
+    display: none;
+
+  }
+  .qqqqqqqq .Group_34{
+    display: none;
+  }
+  .join_group{
+    display: none;
+  }
+  .Rectangle{
+    display: none;
+  }
+  .lower{
+    margin-right: 0%;
+  }
+.post{
+  margin-left: -20px;
+}
+}
+.Arrow{
+Width :16px;
+Height :16px;
+}
+.background{
+  position: relative;
+  display: flex;
+width: 100%;
+left: 0px;
+text-align: center;
+background: url('./img/background.png');
+  padding: 250px 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+}
+.qwerty{
+  position: absolute;
+  top:19vw
+}
+.Middle{
+  display: flex;
+  height: 35vw;
+}
+.Computer_Engineering{
+  
+width: 378px;
+height: 47px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.Computer_Engineering2{
+width: 327px;
+height: 23px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+@media (max-width: 620px) {
+  .banner-container {
+      padding: 100px 15px;
+  }
+  .qwerty{
+    position: absolute;
+    top:15vw
+  }
+  
+.Computer_Engineering{
+  width:100%;
+  height: 22px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 22px;
+}
+  .Computer_Engineering2{
+    width: 218px;
+    height: 16px;
+    
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+  }
+}
+.Group_34{
+  display: flex;
+  width: 35%;
+}
+.qqqqqqqq{
+  display: flex;
+}
+.All_Posts{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.All_Posts1{
+  margin-left: auto;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+}
+.Vector{
+  position: absolute;
+left: 83.17%;
+
+top: 41.67%;
+bottom: 37.5%;
+
+background: #000000;
+border: solid black 4px;
+}
+.near_vector{
+  position: absolute;
+left: 0%;
+top: 45%;
+border: solid black 4px;
+background-color: black;
+}
+.whole{
+  position: absolute;
+width: 162.57px;
+height: 24px;
+left: 5%;
+top: 24px;
+display: flex;
+}
+.Group_65A{
+top: 4.88%;
+bottom: 5.73%;
+
+color: #27A365;
+}
+.line{
+  border-top: solid black 3px;
+}
+* {
+  box-sizing: border-box;
+}
+.post{
+  display: flex;
+  border: solid black 1px;
+  flex-direction: column;
+  width: 100%;
+}
+.post_img{
+  width: 100%;
+}
+.post_type{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: fit-content;
+}
+.post_title{
+  margin-top: 10px;
+  margin-left: 20px;
+  display:flex;
+}
+.post_title_data{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.17%;
+/* or 30px */
+
+
+color: #000000;
+}
+.Triple_dot_vector{
+  margin-left: 28px;
+}
+.post_content{
+  margin-left: 20px;
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 134.17%;
+/* or 25px */
+
+
+color: #5C5C5C;
+}
+.user{
+  margin-top: 32px;
+  display: flex;
+  margin-left: 20px;
+}
+.user_data{
+  display: flex;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  
+  
+  color: #000000;
+}
+.user_name{
+  
+  margin-top: 12px;
+}
+.like_share{
+  margin-left: auto;
+  margin-top: 8px;
+  display: flex;
+}
+.likes_no{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+}
+.share_icon{
+  display: flex;
+  Width :42px;
+Height :36px;
+text-align: center;
+  background: #EDEEF0;
+}
+.Share_icon_align{
+  margin-left: 12px;
+  align-self:center;
+}
+.lower_lower{
+  padding-top: 10px;
+  display: flex;
+  border-top: solid black 1px;
+}
+.lower{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 13.88%;
+  margin-right: 13.88%;
+}
+.lower_left{
+  width: 50%;
+  margin-left: 7.29%;
+  margin-right: 7.29%;
+}
+.location{
+  margin-top: 60px;
+  border-bottom: solid black 3px;
+  display: flex;
+
+}
+.location_Name{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+
+color: #000000;
+}
+.pen_Vector{
+  margin-left: auto;
+}
+.location_suggestion{
+  display: flex;
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.5;
+}
+.recommend{
+  margin-top: 54px;
+  display: flex;
+}
+.Recommended_Groups{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+margin-left: 4px;
+}
+.recommendation_list{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.recomendation_list_item1{
+  display: flex;
+}
+.recommendation_text{
+  
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.follow{
+  background: #EDEEF0;
+  width: 60px;
+  margin-top: 15px;
+border-radius: 14px;
+margin-left: auto;
+}
+.pgbox{
+  display: flex;
+  margin-left: auto;
+}
+.write_a_post{
+  font-family: IBM Plex Sans;
+  margin-bottom: 15px;
+  background: #EDEEF0;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.join_group{
+  font-family: IBM Plex Sans;
+    margin-bottom: 15px;
+    background: #EDEEF0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+/* identical to box height */
+
+
+color: #000000;
+}
+.allpost{
+  display: flex;
+}
+.DL{
+  display: flex;
+  margin-left: 20px;
+}
+.Date{
+  
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+  display: flex;
+}
+.DLoc{
+  margin-left: auto;
+}
+.locatio{
+  display: flex;
+
+}
+.Visit_Website{
+  border: solid black 2px;
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140.4%;
+/* or 18px */
+
+text-align: center;
+
+margin-top: 25px;
+color: #E56135;
+}
+
+.page{
+  position: fixed;
+  top: 10vh;
+  left: 20vw;
+  border: solid black 5px;
+
+}
+.signup_header{
+  background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+text-align: center;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+height: 50px;
+/* identical to box height, or 114% */
+
+
+color: #008A45;
+}
+.signin_box{
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Email{
+  width: 100%;
+  height: 46px;
+}
+.Name{
+height: 46px;
+width: 50%;
+}
+.password{
+  height: 46px;
+  width: 100%;
+}
+.submit{
+  margin-top: 5px;
+  background-color: white;
+  border: white;
+}
+.Create_Account{
+  height: 46px;
+  width:100%;
+  text-align: center;
+  background: #2F6CE5;
+border-radius: 20px;
+}
+.btncreateaccount{
+  background: #2F6CE5;
+  border: #2F6CE5;
+}
+.Facebook{
+  
+border: solid black 1px;
+  width:100%;
+  text-align: center;
+  margin: 5px;
+  
+height: 46px;
+}
+.Gmail{
+  
+height: 46px;
+border: solid black 1px;
+  width:100%;
+  text-align: center;
+  margin: 5px;
+}
+.Create_Accout_2{
+  margin-left: 10px;
+  display: flex;
+  margin-top: 24px;
+}
+.Create_Accout_2a{
+  display: flex;
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+
+
+}
+.Create_Accout_2b{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3D3D3D;
+margin-right: 10px;
+display: flex;
+  margin-left: auto;
+}
+.Forget_password{
+  border:white
+}
+@media only screen and (max-width: 524px) {
+  .hide_img{
+    display: none;
+  }
+  .page{
+    position: fixed;
+    top: 10vh;
+    left: 0vw;
+    border: solid black 5px;
+  
+  }
+  .signin_box{
+    width:100%;
+  }
+  .incresing_form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
   }
 }
