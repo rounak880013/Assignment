@@ -41,7 +41,7 @@ function Register() {
         <div class="Gmail"><button className='submit' type="submit">Sign up with Gmail</button></div>
         </div>
         </div>
-        <div>
+        <div class="asdfgh">
         <img src={image3} alt="" />
         </div>
         </div>

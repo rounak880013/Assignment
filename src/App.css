@@ -70,6 +70,9 @@ left: 80.625%;
   display: flex;
 }
 @media only screen and (max-width: 524px) {
+  .asdfgh{
+    display: none;
+  }
   .left_box{
     top: 11px;
     position: absolute;
@@ -432,6 +435,7 @@ margin-left: auto;
   margin-left: auto;
 }
 .write_a_post{
+  display: flex;
   font-family: IBM Plex Sans;
   margin-bottom: 15px;
   background: #EDEEF0;
@@ -453,6 +457,7 @@ color: #000000;
     font-size: 15px;
     line-height: 19px;
     color: #000000;
+    background-color: #2F6CE5;
 /* identical to box height */
 
 

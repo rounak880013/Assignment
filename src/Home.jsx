@@ -84,6 +84,7 @@ function Home() {
     <div className="pgbox">
     <div className='write_a_post'>
         Write a Post
+        <div className="Arrow"><img src={imageVector} alt="" /></div>
     </div>
 
     <div className='join_group'>
