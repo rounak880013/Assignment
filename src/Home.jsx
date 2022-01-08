@@ -122,7 +122,6 @@ function Home() {
           </div>
         </div>
         </div>
-        ////////////////////
         <div className='post'>
           <div className="image">
           <div className="logo"><img src={image2} className='post_img' alt="" /></div>
@@ -151,7 +150,6 @@ function Home() {
           </div>
         </div>
         </div>
-        ////////////////////////////
         <div className='post'>
           <div className="image">
           <div className="logo"><img src={image3} className='post_img' alt="" /></div>
@@ -190,7 +188,6 @@ function Home() {
           </div>
         </div>
         </div>
-        /////////////////
         <div className='post'>
           
           <div className='post_type'>
@@ -226,7 +223,6 @@ function Home() {
           </div>
         </div>
         </div>
-        ////////////////////
         </div>
         <div className='lower_left'>
           <div className='location'>
